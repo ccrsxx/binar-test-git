@@ -18,3 +18,7 @@ class EngineError extends Error {
     this.name = 'EngineError';
   }
 }
+
+function land() {
+  console.log('Plane is landing');
+}
